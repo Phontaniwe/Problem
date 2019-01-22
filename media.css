@@ -1,0 +1,301 @@
+
+/*iphone 5 */
+@media screen and (max-width: 330px) {
+	.quest-wrapper {
+		width: 260px;
+	}
+
+	.quest-wrapper h2 .line {
+		width: 125px;
+		margin-left: 0px;
+	}
+
+	.works-gallery img:not(:nth-child(2)) {
+		display: none;
+	}
+
+	.quest form textarea {
+		margin-left: 13px;
+	}
+
+	.quest-button {
+		margin-left: 53px;
+	}
+}
+
+
+/* iphone 6,7,8 */
+@media screen and (max-width: 390px) {
+	.consult {
+		background: url(../img/bg-1.png) no-repeat center top;
+	}
+	.works-gallery img:not(:nth-child(2)) {
+		display: none;
+	}
+
+	.quest-wrapper {
+		width: 300px;
+	}
+
+	.quest-wrapper h2 .line {
+		width: 160px;
+		margin-left: 0px;
+	}
+
+	.quest form textarea {
+		margin-left: 9px;
+	}
+
+	.quest-button {
+		margin-left: 49px;
+	}
+}
+
+/* iphone 6,7,8 plus */
+@media screen and (min-width: 400px) and (max-width: 571px) {
+	.container {
+		width: 380px;
+	}
+
+	.button {
+		padding: 15px 34px;
+	}
+
+	.consult {
+		background: url(../img/bg-1.png) no-repeat center top;
+	}
+
+	.consult .container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.consult h1 {
+		margin-left: 0px;
+	}
+
+	.consult-button {
+		margin-left: 1px;
+	}
+
+	.service h2 {
+		margin-left: 16px;
+	}
+
+	.process h2 .line {
+		margin-left: 235px;
+	}
+	
+	.quest form textarea {
+		margin-left: 9px;
+	}
+	
+	.quest-button {
+		margin-left: 49px;
+	}
+
+	.works-gallery img:first-child {
+		margin-right: -43%;
+	}
+
+	.works-gallery img:last-child {
+		margin-left: -43%;
+	}
+
+}
+
+/* for landscape */
+
+@media screen and (min-width: 500px) {
+	
+	.consult {
+		background: url(../img/bg-1-media-iphoneX.png) no-repeat center top -20px;
+	}
+
+	form {
+		width: 360px;
+	}
+
+	input {
+		width: 340px;
+	}
+
+	.request-button {
+		margin-left: 95px;
+	}
+
+	.container {
+		width: 480px;
+	}
+
+	.consult h1 {
+		width: 83%;
+		font-size: 16px;
+	}
+
+	.consult ul {
+		width: 90%;
+		font-size: 14px;
+	}
+	
+	.process h2 .line {
+		margin-left: 335px;
+	}
+
+	.service h2 .line {
+		width: 110px;
+	}
+
+	.works h2 .line {
+		width: 117px;
+	}
+
+	.works-gallery img:not(:nth-child(2)) {
+		margin-top: 5%;
+	}
+
+	.works-gallery img:first-child {
+	margin-right: -27%;
+	}
+
+	.works-gallery img:last-child {
+	margin-left: -27%;
+	}
+
+	.quest {
+		background: url(../img/bg-3-media-iphoneX.png) no-repeat center top -70px;
+	}
+
+	.quest form {
+		margin-top: 85px;
+	}
+
+	.quest form textarea {
+		margin-left: 10px;
+		width: 325px;
+	}
+
+	.quest-button {
+		margin-left: 110px;
+	}
+}
+
+/* landscape iphoneX */
+
+@media screen and (min-width: 750px) {
+	form {
+		width: 420px;
+	}
+
+	input {
+		width: 400px;
+	}
+	
+	::-webkit-input-placeholder {
+		font-size:12px;
+	}
+
+	::-moz-placeholder {
+		font-size:12px;
+	}
+
+	:-moz-placeholder {
+		font-size:12px;
+	}
+
+	:-ms-input-placeholder {
+		font-size:12px;
+	}
+
+	.container {
+		width: 680px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	h3 {
+		font-size: 16px;
+	}
+
+	p {
+		font-size: 13px;
+	}
+
+	.process h2 .line{
+		width: 160px;
+		margin-left: 500px;
+	}
+
+	.button {
+		font-size: 14px;
+	}
+
+	.consult-button {
+		width: 180px;
+	}
+
+	.consult {
+		background: url(../img/bg-1-media-iphoneX.png) no-repeat center top -25px;
+	}
+
+	.consult h1 {
+		width: 83%;
+		font-size: 20px;
+	}
+
+	.consult ul {
+		width: 90%;
+		font-size: 17px;
+	}
+
+	.quest {
+		background: url(../img/bg-3-media-iphoneX.png) no-repeat center top -65px;
+	}
+
+	.quest-wrapper {
+		width: 500px;
+ 		margin: 0 auto;
+	}
+
+	.quest h2 .line {
+		width: 330px;
+		margin-right: 200px;
+	}
+
+	.request h2 {
+		font-size: 16px;
+		width: 380px;
+	}
+
+	.request-button {
+		margin-left: 115px;
+	}
+
+	.service h2 .line {
+		width: 150px;
+	}
+
+	.works h2 .line {
+		width: 150px;
+	}
+
+	.quest form textarea {
+		margin-left: 10px;
+		width: 380px;
+	}
+
+	.quest-button {
+		margin-left: 120px;
+	}
+
+	.works-gallery img:first-child {
+		margin-right: -20%;
+	}
+
+	.works-gallery img:last-child {
+		margin-left: -20%;
+	}
+}

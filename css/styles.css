@@ -1,0 +1,419 @@
+
+/* Cпецификация */
+@font-face {
+font-family: 'font2f8e39ec51ce3e60d6cb146b6a21c797';
+    
+    src:    url('https://nomail.com.ua/files/eot/2f8e39ec51ce3e60d6cb146b6a21c797.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/2f8e39ec51ce3e60d6cb146b6a21c797.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/2f8e39ec51ce3e60d6cb146b6a21c797.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'SynergaPro-Regular';
+	src: local('SynergaPro-Regular'), url('https://nomail.com.ua/files/woff/2f8e39ec51ce3e60d6cb146b6a21c797.woff') format('woff');
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family:'SynergaPro-Regular';
+	box-sizing: border-box;
+}
+
+.container {
+	width: 286px;
+	margin: 0 auto;
+} 
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+a {
+	display: block;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+p {
+	font-size: 9px;
+	color: #261976;	
+	margin: 0;
+	padding: 0;	
+	text-align: center;
+}
+
+h1 {
+	font-weight: 800;
+	font-size: 14px;
+	color: #fff;
+}
+
+h2 {
+	color: #261976;
+	font-weight: 300;
+	font-size: 16px;
+	letter-spacing: 0.1em;
+}
+
+h3 {
+	font-size: 12px;
+	color: #261976;
+	font-weight: 300;
+	text-transform: lowercase;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-weight: 300;
+	font-size: 12px;
+}
+
+li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	line-height: 1.3em;
+}
+
+li:before { 
+    content: "•";
+    color: #5c206d; 
+    font-size: 20px;
+    padding-right: 6px;
+    display: block;
+}
+
+.button {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 10px;
+	border: 0px;
+	padding: 10px 34px;
+	border-radius: 10px;
+	transition: all 0.3s ease;
+	cursor: pointer;
+	letter-spacing: 0.035em;
+	background: #261976;
+	outline: none;
+}
+
+.button:hover {
+	background: #1b1251;
+}
+
+.line {
+	display: block;
+	height: 2px;
+	background: #261976;
+	width: 96px;
+}
+
+
+input {
+	border: 0px;
+	border-bottom: 1px solid #261976;
+	background: transparent;
+	padding-left: 12px;
+	width: 220px;
+	display: block;
+	margin: 0 auto;
+	outline: none;
+	font-size: 10px;
+	color: #261976;
+}
+
+input:not(:last-of-type) {
+	margin-bottom: 20px;
+}
+
+.step-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.step {
+	display: flex;
+	justify-content: space-around;
+}
+
+.step:not(:last-child) {
+	margin-bottom: 24px;
+}
+
+.step-item img {
+	display: block;
+	margin: 0 auto;
+}
+
+.step-item h3 {
+	text-align: center;
+}
+
+form {
+	width: 240px;
+	margin: 0 auto;
+}
+
+/* Header */
+.header {
+	background: #bfe6ff;
+	border-bottom: 5px solid #261976;
+}
+
+.main-header {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 15px 13px 19px;
+}
+
+.header__contacts {
+	display: flex;
+	align-items: center;
+}
+
+.header__contacts-item {
+	display: block;
+}
+
+.header__contacts-item:not(:last-child) {
+	margin-right: 12px;
+}
+
+
+
+/* Consult */
+.consult {
+	background: url(../img/bg-1.png) no-repeat center top -30px;
+	padding-bottom: 123px; /*53px должно быть, но сложности бэкграунда*/
+}
+
+.consult h1 {
+	text-align: justify;
+	width: 223px;
+	margin-left: 20px;
+	padding-top: 15px;
+}
+
+.consult ul {
+	margin-left: 9px;
+	width: 264px;
+	margin-top: 7px;
+}
+
+.consult li {
+	display: flex;
+}
+
+.consult-button {
+	width: 157px;
+	margin-top: 22px;
+	margin-left: 64px;
+}
+
+
+
+
+/* Process */
+.process {
+	margin-top: -70px; /*сложности бэкграунда*/
+	padding-bottom: 30px;
+}
+
+
+.process h2{
+	text-align: right;
+	margin-right: 16px;
+	padding-bottom: 25px;
+}
+
+h2 .line {
+	margin-top: 7px;
+}
+
+.process h2 .line {
+	margin-left: 140px;
+	width: 126px;
+}
+
+.process .step-item img {
+	margin-bottom: 25px;
+}
+
+.process .step-item p {
+	width: 110px;
+}
+
+
+/* request */
+.request {
+	/*background: url(../img/bg-2.jpg) no-repeat center center;
+	background-size: 100%;*/
+	background: #68cef8;
+	padding-top: 30px;
+	padding-bottom: 29px;
+}
+
+.request h2 {
+	text-align: center;
+	font-size: 12px;
+	width: 280px;
+	margin: 0 auto;
+	line-height: 1.9em;
+}
+
+
+.request form {
+	padding-top: 27px;
+	background: url(../img/emblem.png) no-repeat left top;
+	/*margin-left: 5px;*/
+	padding-left: 34px;
+}
+
+::-webkit-input-placeholder {
+	color:#261976;
+	font-size:8px;
+	letter-spacing: 0.1em;
+}
+
+::-moz-placeholder {
+	color:#261976;
+	font-size:8px;
+	letter-spacing: 0.1em;
+}
+
+:-moz-placeholder {
+	color:#261976;
+	font-size:8px;
+	letter-spacing: 0.1em;
+}
+
+:-ms-input-placeholder {
+	color:#261976;
+	font-size:8px;
+	letter-spacing: 0.1em;
+}
+
+.request-button {
+	margin-left: 35px;
+	margin-top: 29px;
+}
+
+/* service */
+.service {
+	margin-top: 34px;
+	padding-bottom: 60px;
+}
+
+.service h2 {
+	margin-bottom: 41px;
+}
+
+.service .step-item img {
+	margin-bottom: 16px;
+}
+
+.service .step-item p {
+	width: 105px;
+}
+
+/* works */
+.works-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.works h2 .line {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.works-gallery {
+	display: flex;
+	justify-content: center;
+	margin-top: 29px;
+}
+
+.works-gallery img {
+	display: block;
+}
+
+.works-gallery img:nth-child(2) {
+	z-index: 10;
+	width: 271px;
+	height: 267px;
+}
+
+.works-gallery img:not(:nth-child(2)) {
+	width: 224px;
+	height: 222px;
+	margin-top: 9%;
+}
+
+.works-gallery img:first-child {
+	margin-right: -42%;
+}
+
+.works-gallery img:last-child {
+	margin-left: -42%;
+}
+
+/* questions */
+.quest {
+	padding-top: 121px;
+	background: url(../img/bg-3.png) no-repeat center top 55px;
+	padding-bottom: 30px;
+}
+
+.quest-wrapper {
+	display: flex;
+	justify-content: center;
+	width: 330px;
+}
+
+.quest h2 .line {
+	margin-left: auto;
+	margin-right: auto;
+	width: 290px;
+}
+
+.quest form {
+	margin-top: 65px;
+}
+
+.quest form textarea {
+	background: #8ecdf6;
+	background: rgb(142, 205, 246, 0.5);
+	margin-top: 34px;
+	margin-left: 36px;
+	border-radius: 15px;
+	padding-left: 8px;
+	padding-top: 6px;
+	outline: none;
+	color: #261976;
+}
+
+.quest-button {
+	margin-top: 35px;
+	margin-left: 75px;
+}
+
+/* footer 
+.footer {
+	letter-spacing: 0.1em;
+	padding: 13px 0;
+	line-height: 1.6em;
+	color: #fff;
+	font-size: 10px;
+	background: #261976;
+	margin-top: 34px;
+	text-align: right;
+}
+
+*/
